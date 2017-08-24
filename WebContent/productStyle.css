@@ -1,0 +1,95 @@
+html{
+    border: 10px solid orange;
+    height: 800px;
+    width: 1300px;
+}
+
+img#headerImg {
+    width: 1285px;
+    height: 240px;
+    background-image: "header.png"
+}
+
+div#tabButt {
+    height: 50px;
+    background: orange;
+}
+input.tabButton{
+    color: white;
+    background: blue;
+}
+
+input.tabButton:hover{
+    color: black;
+    background: orange;
+}
+
+form#ordersForm {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+form#productsForm {
+    position: relative;
+    top: -26px;
+    left: 65px;
+}
+
+form#routesForm {
+    position: relative;
+    top: -52px;
+    left: 135px;
+}
+
+form#logoutForm {
+    position: relative;
+    top: -78px;
+    left: 1200px;
+}
+
+table#productsTable {
+    background: lightblue;
+    position: relative;
+    left: 250px;
+    top: -490px;
+    width: 1040px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 5px solid white;
+}
+
+tr#productsHeader {
+    background: cornflowerblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.sidebar {
+    background: orange;
+    color: white;
+    width: 249px;
+    height: 490px;
+}
+
+div.caption {
+    background: blue;
+    color: white;
+
+}
+
+input.catButton {
+    background: cornflowerblue;
+    color: white;
+    width: 200px;
+    position: relative;
+    left: 20px;
+}
+
+input.catButton:hover {
+    background: white;
+    color: black;
+    width: 200px;
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,68 @@
+html{
+    border: 10px solid orange;
+    height: 800px;
+    width: 1300px;
+}
+
+img#headerImg {
+    width: 1285px;
+    height: 240px;
+    background-image: "header.png"
+}
+
+div#tabButt {
+    height: 50px;
+    background: orange;
+}
+input.tabButton{
+    color: white;
+    background: blue;
+}
+
+input.tabButton:hover{
+    color: black;
+    background: orange;
+}
+
+form#ordersForm {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+form#productsForm {
+    position: relative;
+    top: -26px;
+    left: 65px;
+}
+
+form#routesForm {
+    position: relative;
+    top: -52px;
+    left: 135px;
+}
+
+form#logoutForm {
+    position: relative;
+    top: -78px;
+    left: 1200px;
+}
+
+table#ordersTable {
+    background: lightblue;
+    width: 1280px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr#ordersHeader {
+    background: cornflowerblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div#filters {
+    background: cornflowerblue;
+    color: white;
+    border: 5px solid cornflowerblue;
+}
